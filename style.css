@@ -1,0 +1,72 @@
+h1 > a{
+  color: red;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 40px;
+}
+
+nav > a {
+font-weight: normal;
+color: #E0E0E0;
+font-size: 20px;
+border-bottom: 5px
+
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+h2 > a {
+  text-decoration: none;
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+}
+ article > h3{
+   color: #E0E0E0;
+   font-size: 35px;
+   font-weight: normal;
+   margin-bottom: -20px;
+
+ }
+ p:first-letter {
+     float: left;
+     font-size: 90px;
+     line-height: 1;
+     font-weight: bold;
+     margin-right: 9px;
+     color: #E0E0E0;
+     font-family: "Times New Roman", Times, serif;
+ }
+h4 > a {
+  padding: 5px;
+}
+img {
+ float: center;
+ width: 100%;
+}
+article {
+  border-bottom: 4px solid #E0E0E0;
+
+}
+body {
+  margin: 40px;
+}
+h4 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+article {
+  margin: inherit;
+}
+
+footer > nav > a {
+  color: red;
+  border-bottom: none;
+}
+footer > nav {
+  padding: 30px;
+  border-bottom: none;
+}
